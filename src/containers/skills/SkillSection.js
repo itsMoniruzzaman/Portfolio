@@ -12,7 +12,10 @@ function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    return <img
+      alt="monir is Analysing Data"
+      src={require(`../../assets/images/Video editing intro illustration.jpg`)}
+    ></img>
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;

@@ -87,52 +87,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
+      title: "Video Editing",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
@@ -183,20 +138,20 @@ const skills = {
             color: "#339933",
           },
         },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
+        // {
+        //   skillName: "Yarn",
+        //   fontAwesomeClassname: "simple-icons:yarn",
+        //   style: {
+        //     color: "#2C8EBB",
+        //   },
+        // },
         {
           skillName: "Gatsby",
           fontAwesomeClassname: "simple-icons:gatsby",
@@ -214,112 +169,155 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "Currently exploring data science and machine learning as a learner. Passionate about gaining practical skills and understanding in these fields."
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
           style: {
-            color: "#4285F4",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
           style: {
-            color: "#FF9900",
+            backgroundColor: "white",
+            color: "#D00000",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
           style: {
-            color: "#0089D6",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
-            color: "#FFCA28",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          skillName: "Deeplearning",
+          imageSrc: "deeplearning_ai_logo.png",
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "Cloud Infra-Architecture",
+    //   fileName: "CloudInfraImg",
+    //   skills: [
+    //     "⚡ Experience working on multiple cloud platforms",
+    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
+    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "GCP",
+    //       fontAwesomeClassname: "simple-icons:googlecloud",
+    //       style: {
+    //         color: "#4285F4",
+    //       },
+    //     },
+    //     {
+    //       skillName: "AWS",
+    //       fontAwesomeClassname: "simple-icons:amazonaws",
+    //       style: {
+    //         color: "#FF9900",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Azure",
+    //       fontAwesomeClassname: "simple-icons:microsoftazure",
+    //       style: {
+    //         color: "#0089D6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Firebase",
+    //       fontAwesomeClassname: "simple-icons:firebase",
+    //       style: {
+    //         color: "#FFCA28",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PostgreSQL",
+    //       fontAwesomeClassname: "simple-icons:postgresql",
+    //       style: {
+    //         color: "#336791",
+    //       },
+    //     },
+    //     {
+    //       skillName: "MongoDB",
+    //       fontAwesomeClassname: "simple-icons:mongodb",
+    //       style: {
+    //         color: "#47A248",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Docker",
+    //       fontAwesomeClassname: "simple-icons:docker",
+    //       style: {
+    //         color: "#1488C6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Kubernetes",
+    //       fontAwesomeClassname: "simple-icons:kubernetes",
+    //       style: {
+    //         color: "#326CE5",
+    //       },
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
