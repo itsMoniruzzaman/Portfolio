@@ -7,34 +7,34 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Moniruzzaman Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Hi there! I'm a video editor passionate about storytelling and exploring machine learning. I turn raw footage into captivating videos, and I love diving into the world of AI.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Moniruzzaman Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
+  title: "Moniruzzaman",
   logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Hi there! I'm a video editor passionate about storytelling and exploring machine learning. I turn raw footage into captivating videos, and I love diving into the world of AI.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository: "https://github.com/itsmoniruzzaman/Portdolio",
+  githubProfile: "https://github.com/itsmoniruzzaman",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
   // github: "https://github.com/ashutosh1919",
   // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
+  // gmail: "moniruzzaman.editor.ai@gmail.com",
   // gitlab: "https://gitlab.com/ashutoshhathidara98",
   // facebook: "https://www.facebook.com/laymanbrother.19/",
   // twitter: "https://twitter.com/ashutosh_1919",
@@ -60,7 +60,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:moniruzzaman.editor.ai@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
