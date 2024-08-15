@@ -8,7 +8,7 @@ const VideoEditing = () => {
             <h1 className='text-4xl text-primary font-semibold text-center'>What I Do ?</h1>
             <div className='flex items-center justify-between mt-8'>
                 <div className='w-1/2'>
-                    <Image src={image} alt='video' className='w-4/5' />
+                    <Image src={image} alt='video' placeholder='blur' quality={100} className='w-4/5' />
                 </div>
                 <div className='w-1/2'>
                     <h1 className='text-4xl font-medium mb-5'>Video Editing</h1>
