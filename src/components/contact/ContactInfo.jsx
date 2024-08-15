@@ -7,11 +7,11 @@ import profile from '../../../public/assets/moniruzzaman.png'
 
 const ContactInfo = () => {
     return (
-        <div className='flex items-center my-16'>
-            <div className='w-1/2 flex items-center justify-center'>
+        <div className='md:flex items-center my-16'>
+            <div className='md:w-1/2 flex items-center justify-center'>
                 <Image src={profile} alt='profile' className='w-3/5 border-4 rounded-full border-primary' />
             </div>
-            <div className='w-1/2'>
+            <div className='md:w-1/2 mt-10 md:mt-0'>
                 <h1 className='text-primary text-4xl font-medium mb-5'>Contact Me</h1>
                 <p className='text-lg'>I’m active on almost every social media platform and available to connect. Feel free to message me, and I’ll respond within 24 hours. I can assist with video editing projects and provide insights into machine learning & data science</p>
                 <div className='flex gap-2 mt-5'>

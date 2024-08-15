@@ -6,9 +6,11 @@ import React from 'react';
 const ContactPage = () => {
     return (
         <div className='container mx-auto'>
-            <ContactInfo />
-            <BlogAndService />
-            <Address />
+            <div className='mx-4 md:mx-0'>
+                <ContactInfo />
+                <BlogAndService />
+                <Address />
+            </div>
         </div>
     );
 };
