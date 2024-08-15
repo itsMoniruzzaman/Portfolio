@@ -6,10 +6,12 @@ import VideoFocusArea from "@/components/videoFocusArea/VideoFocusArea";
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <Header />
-      <VideoEditing />
-      <VideoFocusArea />
-      <DataScience />
+      <div className="mx-4 md:mx-0">
+        <Header />
+        <VideoEditing />
+        <VideoFocusArea />
+        <DataScience />
+      </div>
     </div>
   );
 }

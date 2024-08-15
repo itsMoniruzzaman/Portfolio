@@ -7,10 +7,10 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
     return (
-        <div className='flex items-center'>
-            <div className='w-1/2'>
-                <h1 className='text-6xl font-medium text-primary'>Moniruzzaman</h1>
-                <p className='mt-5 text-3xl leading-normal'>Hi there! I'm a video editor passionate about storytelling and exploring machine learning. I turn raw footage into captivating videos, and I love diving into the world of AI.</p>
+        <div className='md:flex items-center'>
+            <div className='md:w-1/2'>
+                <h1 className='md:text-6xl text-4xl font-medium text-primary'>Moniruzzaman</h1>
+                <p className='mt-5 md:text-3xl leading-normal'>Hi there! I'm a video editor passionate about storytelling and exploring machine learning. I turn raw footage into captivating videos, and I love diving into the world of AI.</p>
                 <div className='flex gap-2 mt-5'>
                     <Link className='text-2xl 2xl:text-3xl rounded-full bg-[#24292E] text-white p-2' target='_blank' href='https://www.github.com/itsMoniruzzaman'><FaGithub /></Link>
                     <Link className='text-2xl 2xl:text-3xl rounded-full bg-[#0a66c2] text-white p-2' target='_blank' href='https://www.linkedin.com/in/itsmoniruzzaman'><FaLinkedinIn /></Link>
@@ -20,7 +20,7 @@ const Header = () => {
                     <Link className="text-2xl 2xl:text-3xl rounded-full bg-gradient-to-b from-[#f58529] via-[#dd2a7b] to-[#515bd4] text-white p-2" target='_blank' href="https://www.instagram.com/itsmoniruzzaman"><FaInstagram /></Link>
                 </div>
             </div>
-            <div className='w-1/2'>
+            <div className='md:w-1/2'>
                 <Image src={image} placeholder='blur' alt='banner' quality={100} />
             </div>
         </div>

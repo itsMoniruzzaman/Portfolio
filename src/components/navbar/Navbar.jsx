@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Link href='/'>
                     <Image className='w-80' src={logo} quality={100} placeholder='blur' />
                 </Link>
-                <nav>
+                <nav className='hidden md:block'>
                     <ul className='flex items-center gap-5 text-lg'>
                         <li><Link href='/'>Home</Link></li>
                         <li><Link href='/education'>Education</Link></li>
