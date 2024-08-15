@@ -6,9 +6,9 @@ import icons from '../../../public/assets/icons.png'
 const VideoFocusArea = () => {
     return (
         <div className='my-10'>
-            <h1 className='text-4xl mb-5 text-center'>Editing Focus Areas</h1>
             <div className='flex items-start justify-center'>
                 <div className='w-1/2'>
+                    <h1 className='text-4xl mb-5 text-start'>Editing Focus Areas</h1>
                     <div className='flex items-center gap-2 mb-2'>
                         <FaCircleCheck className='text-2xl text-green-600' />
                         <p className='text-2xl'>Shorts ( YouTube, Facebook & Tiktok)</p>
@@ -39,7 +39,8 @@ const VideoFocusArea = () => {
                     </div>
                 </div>
                 <div className='w-1/2'>
-                    <Image src={icons} alt='icons' placeholder='blur' quality={100} />
+                    <h1 className='text-4xl mb-5 text-start'>Software I Use</h1>
+                    <Image src={icons} alt='icons' placeholder='blur' quality={100} className='w-3/5' />
                 </div>
             </div>
         </div>
