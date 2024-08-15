@@ -6,15 +6,17 @@ import { IoIosFlash } from "react-icons/io";
 const Degrees = () => {
     return (
         <div className='my-20'>
-            <h1 className='text-primary text-4xl text-center'>Degrees Received</h1>
+            <h1 className='text-primary text-4xl text-center font-semibold'>Degrees Received</h1>
             <div className='ring-1 rounded-md'>
-                <div className='bg-slate-200 flex justify-between rounded-t my-10 p-5'>
-                    <Image src={spiLogo} alt='spilogo' className='w-36 h-36' />
-                    <div>
-                        <h1 className='text-3xl font-medium text-primary'>Sylhet Polytechnic Institute</h1>
-                        <p className='text-xl font-medium mt-2'>Diploma in Mechanical Engineering</p>
+                <div className='bg-slate-200 md:flex justify-between rounded-t my-10 p-5'>
+                    <div className='flex items-center justify-center'>
+                        <Image src={spiLogo} alt='spilogo' className='w-36 h-36' />
                     </div>
-                    <p>June 2017 - June 2021</p>
+                    <div>
+                        <h1 className='text-3xl font-medium text-primary text-center'>Sylhet Polytechnic Institute</h1>
+                        <p className='text-xl font-medium mt-2 text-center md:text-start'>Diploma in Mechanical Engineering</p>
+                    </div>
+                    <p className='text-center md:text-start'>June 2017 - June 2021</p>
                 </div>
                 <div className='flex items-start gap-2 mb-5'>
                     <IoIosFlash className='text-2xl text-yellow-600' />
