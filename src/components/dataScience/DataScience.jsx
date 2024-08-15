@@ -5,12 +5,13 @@ import logo2 from '../../../public/assets/PyTorch logo.png'
 import logo3 from '../../../public/assets/Seaborn logo.png'
 import logo4 from '../../../public/assets/Sklearn logo.png'
 import logo5 from '../../../public/assets/Tensorflow logo.png'
+import image from '../../../public/assets/03.png'
 
 const DataScience = () => {
     return (
         <div className='flex items-center justify-between my-10'>
             <div className='w-1/2'>
-                <Image src='' alt='video' />
+                <Image className='h-96 w-4/5' src={image} alt='video' />
             </div>
             <div className='w-1/2'>
                 <h1 className='text-4xl font-medium mb-5 text-primary'>Data Science, ML & AI</h1>

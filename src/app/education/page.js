@@ -1,3 +1,4 @@
+import Certification from '@/components/education/Certification';
 import Degrees from '@/components/education/Degrees';
 import React from 'react';
 import { FaGraduationCap } from 'react-icons/fa';
@@ -13,6 +14,7 @@ const EducationPage = () => {
                 </div>
             </div>
             <Degrees />
+            <Certification />
         </div>
     );
 };
