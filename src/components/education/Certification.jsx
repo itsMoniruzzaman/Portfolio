@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Certification = () => {
     return (
-        <div className='my-20'>
+        <div className='my-20' data-aos="fade-up">
             <h1 className='text-center text-primary text-4xl mb-10'>Certifications</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                 <Link href='https://www.udemy.com/certificate/UC-f4b0c531-d110-457b-9195-cc63e0d6eb62/' target='_blank' className='shadow-lg ring-1 rounded-md ring-slate-50'>

@@ -5,7 +5,7 @@ import { IoIosFlash } from "react-icons/io";
 
 const Degrees = () => {
     return (
-        <div className='my-20'>
+        <div className='my-20' data-aos="zoom-in">
             <h1 className='text-primary text-4xl text-center font-semibold'>Degrees Received</h1>
             <div className='ring-1 rounded-md'>
                 <div className='bg-slate-200 md:flex justify-between rounded-t my-10 p-5'>

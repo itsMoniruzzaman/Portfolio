@@ -1,3 +1,4 @@
+import AnimationComponent from '@/components/animation/AnimationComponent';
 import Certification from '@/components/education/Certification';
 import Degrees from '@/components/education/Degrees';
 import React from 'react';
@@ -7,7 +8,7 @@ const EducationPage = () => {
     return (
         <div className='container mx-auto'>
             <div className='mx-4 md:mx-0'>
-                <div className='md:flex items-center justify-center gap-x-20'>
+                <div className='md:flex items-center justify-center gap-x-20' data-aos="fade-up">
                     <div className='flex items-center justify-center'>
                         <FaGraduationCap className='md:text-[24rem] text-[16rem] text-primary' />
                     </div>
@@ -19,6 +20,7 @@ const EducationPage = () => {
                 <Degrees />
                 <Certification />
             </div>
+            <AnimationComponent />
         </div>
     );
 };
