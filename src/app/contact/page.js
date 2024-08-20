@@ -1,3 +1,4 @@
+import AnimationComponent from '@/components/animation/AnimationComponent';
 import Address from '@/components/contact/Address';
 import BlogAndService from '@/components/contact/BlogAndService';
 import ContactInfo from '@/components/contact/ContactInfo';
@@ -10,6 +11,7 @@ const ContactPage = () => {
                 <ContactInfo />
                 <BlogAndService />
                 <Address />
+                <AnimationComponent /> 
             </div>
         </div>
     );

@@ -5,10 +5,10 @@ import newsletter from '../../../public/assets/newsletter.png'
 const Address = () => {
     return (
         <div className='md:flex items-center my-16'>
-            <div className='md:w-1/2 flex items-center justify-center'>
+            <div className='md:w-1/2 flex items-center justify-center' data-aos="fade-right">
                 <Image src={newsletter} alt='newsletter' className='md:w-3/5' />
             </div>
-            <div className='md:w-1/2 mt-10 md:mt-0'>
+            <div className='md:w-1/2 mt-10 md:mt-0' data-aos="fade-left">
                 <h1 className='text-primary md:text-4xl text-3xl font-medium mb-5 text-center md:text-start'>Address</h1>
                 <p className='text-lg text-center md:text-start'>Tangail, Bangladesh</p>
                 <div className='flex items-center justify-center md:justify-start'>
