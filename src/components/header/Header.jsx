@@ -4,10 +4,11 @@ import image from '../../../public/assets/01.png'
 import Link from 'next/link';
 import { FaGithub, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import AnimationComponent from '../animation/AnimationComponent';
 
 const Header = () => {
     return (
-        <div className='md:flex flex-row-reverse items-center'>
+        <div className='md:flex flex-row-reverse items-center' data-aos="fade-up">
             <div className='md:w-1/2'>
                 <Image src={image} placeholder='blur' alt='banner' quality={100} />
             </div>
@@ -23,6 +24,7 @@ const Header = () => {
                     <Link className="text-2xl 2xl:text-3xl rounded-full bg-gradient-to-b from-[#f58529] via-[#dd2a7b] to-[#515bd4] text-white p-2" target='_blank' href="https://www.instagram.com/itsmoniruzzaman"><FaInstagram /></Link>
                 </div>
             </div>
+            <AnimationComponent />
         </div>
     );
 };
